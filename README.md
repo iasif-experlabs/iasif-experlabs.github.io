@@ -1,87 +1,152 @@
-# h1 Heading 
-## h2 Heading
-### h3 Heading
-#### h4 Heading 
-##### h5 Heading 
-###### h6 Heading
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Royal Taste Restaurant</title>
 
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
 
-## Horizontal Rules
+body{
+background:#fafafa;
+color:#333;
+}
 
+header{
+background:#222;
+color:white;
+padding:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
 
-## Emphasis
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+}
 
-**This is bold text**
+.hero{
+height:80vh;
+background:url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1600") center/cover;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+color:white;
+text-align:center;
+}
 
-_This is bold text_
+.hero h1{
+font-size:60px;
+}
 
-*This is italic text*
+.hero p{
+font-size:22px;
+margin:20px;
+}
 
-_This is italic text_
+button{
+padding:15px 35px;
+font-size:18px;
+background:#ff5722;
+border:none;
+color:white;
+cursor:pointer;
+}
 
-aStrikethroughe
+section{
+padding:60px;
+text-align:center;
+}
 
-## Blockquotes
+.menu{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+margin-top:40px;
+}
 
-> Blockquotes can also be nested...
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,.1);
+}
 
->> ...by using additional greater-than sihns right next to each other...
-> > > ...or with spaces between a arrows
+.card img{
+width:100%;
+border-radius:10px;
+}
 
-## Lists
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+</style>
 
+</head>
+<body>
 
-Unordered
+<header>
+<h2>Royal Taste</h2>
 
+<nav>
+<a href="#">Home</a>
+<a href="#">Menu</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
+</nav>
 
-+ Create a list by starting a line with '+','-',  r '*'
-+ Sub-lists are made by indenting 2 spaces:
-- Marker character change forces new list start:
-* Ac tristique libero volutpat at + Facilisis in pretium nisl aliquet
-- Nulla volutpat aliquam velit
-+ Very easy!
+</header>
 
-Ordered
+<div class="hero">
+<h1>Welcome to Royal Taste</h1>
+<p>Fresh Food • Best Taste • Fast Delivery</p>
+<button>Order Now</button>
+</div>
 
-1. Lorem ipsum dolor sit amet
-2. Consectetur adipiscing elit
-3. Integer molestie lorem at massa
+<section>
 
-## Code
+<h2>Our Popular Dishes</h2>
 
-Inline 'code
+<div class="menu">
 
-Indented code
+<div class="card">
+<img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600">
+<h3>Pizza</h3>
+<p>$12</p>
+</div>
 
-// Some comments
-line 1 of code 
-line 2 of code 
-line 3 of code
+<div class="card">
+<img src="https://images.unsplash.com/photo-1550547660-d9450f859349?w=600">
+<h3>Burger</h3>
+<p>$10</p>
+</div>
 
-Block code "fences"
+<div class="card">
+<img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=600">
+<h3>Steak</h3>
+<p>$18</p>
+</div>
 
-'''
-Sample text here...
-'''
+</div>
 
-Syntax highlighting
+</section>
 
-'''js
+<footer>
+© 2026 Royal Taste Restaurant
+</footer>
 
-var foo = function (bar) {
-
-return bart+;
-};
-console. log (foo (5)) ;
-## Tables
-Option | Description |
-data
-I path to data files to supply the data that will be passed into templates. |
-I engine
-I engine to be used for processing templates. Handlebars is the default. l
-| ext
-I extension to be used for dest files. I
-Right aligned columns
-
-
-
+</body>
+</html>
