@@ -335,6 +335,43 @@
       display: inline-block;
     }
 
+    html {
+      scroll-behavior: smooth;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: flex-end;
+      padding-bottom: 1rem;
+      margin-bottom: 1.5rem;
+      position: sticky;
+      top: 0;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      z-index: 100;
+      padding-top: 1rem;
+      margin-top: -1rem;
+      border-bottom: 1px solid #e9eef3;
+    }
+    .nav-links {
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+    .nav-links a {
+      text-decoration: none;
+      color: #1e3a5f;
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: all 0.2s;
+      padding: 0.4rem 0.8rem;
+      border-radius: 8px;
+    }
+    .nav-links a:hover {
+      background: #eef4ff;
+      color: #2563eb;
+    }
+
     @media (max-width: 900px) {
       .container {
         padding: 1.8rem;
@@ -382,6 +419,15 @@
 <body>
 <div class="container">
 
+  <nav class="navbar">
+    <div class="nav-links">
+      <a href="#summary">Summary</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+    </div>
+  </nav>
+
   <div class="profile-header">
     <div class="name-title">
       <h1>Ibtisam Asif</h1>
@@ -398,7 +444,7 @@
     </div>
   </div>
 
-  <div class="summary">
+  <div id="summary" class="summary">
     <strong>Engineering Lead & Principal Full Stack Engineer</strong> with 10+ years of experience delivering large-scale SaaS, eCommerce, logistics, fintech, and enterprise platforms. Proven track record of leading cross-functional engineering teams, owning end-to-end product delivery, and building scalable systems from concept to production. Experienced in stakeholder management, roadmap planning, system architecture, cloud infrastructure, and engineering execution.
   </div>
 
@@ -406,7 +452,7 @@
 
     <div class="sidebar">
 
-      <div class="card">
+      <div id="skills" class="card">
         <div class="card-title"><i class="fas fa-microchip"></i> Technical Skills</div>
         <div style="margin-bottom: 0.8rem;">
           <div style="font-weight: 600; font-size: 0.75rem; letter-spacing: 0.3px; color: #475569; margin-bottom: 0.2rem;">LEADERSHIP & DELIVERY</div>
@@ -489,7 +535,7 @@
         </ul>
       </div>
 
-      <div class="card">
+      <div id="projects" class="card">
         <div class="card-title"><i class="fas fa-folder-open"></i> Key Projects</div>
         <div class="project-item">
           <h4><i class="fas fa-cube" style="color: #2563eb; font-size: 0.8rem;"></i> LogiSort</h4>
@@ -515,7 +561,7 @@
 
     </div>
 
-    <div class="main-content">
+    <div id="experience" class="main-content">
 
       <div class="exp-item">
         <div class="exp-header">
