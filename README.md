@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -440,7 +439,7 @@
       <div class="contact-item"><i class="fas fa-phone-alt"></i> +92 301 4775234</div>
       <div class="contact-item"><i class="fas fa-envelope"></i> <a href="mailto:ibtisamasif@gmail.com">ibtisamasif@gmail.com</a></div>
       <div class="contact-item"><i class="fab fa-github"></i> <a href="#">GitHub</a></div>
-      <div class="contact-item"><i class="fab fa-linkedin-in"></i> <a href="#">LinkedIn</a></div>
+      <div class="contact-item"><i class="fab fa-linkedin-in"></i> <a href="https://linkedin.com/in/ibtisamasif" target="_blank" rel="noopener noreferrer">LinkedIn</a></div>
     </div>
   </div>
 
