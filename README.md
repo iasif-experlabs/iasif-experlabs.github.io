@@ -565,20 +565,6 @@
 
       <div class="exp-item">
         <div class="exp-header">
-          <div><h3>Backend Engineer</h3><span class="company">Ayni Gold</span></div>
-          <span class="date">April – July</span>
-        </div>
-        <div class="exp-desc">
-          <ul>
-            <li>Engineered backend systems and APIs to support cryptocurrency and Web3 features.</li>
-            <li>Integrated blockchain functionality and managed secure transactions for the platform.</li>
-          </ul>
-          <div style="margin-top: 0.4rem;"><span class="tech-badge">Web3</span><span class="tech-badge">Crypto</span><span class="tech-badge">Blockchain</span><span class="tech-badge">Backend</span></div>
-        </div>
-      </div>
-
-      <div class="exp-item">
-        <div class="exp-header">
           <div><h3>Senior Software Engineer · Engineering Lead</h3><span class="company">FullBeauty Brands</span></div>
           <span class="date">Jan 2024 – Present</span>
         </div>
@@ -594,20 +580,6 @@
             <li><strong>Owned end-to-end product lifecycle:</strong> architecture → development → deployment.</li>
           </ul>
           <div style="margin-top: 0.4rem;"><span class="tech-badge">FastAPI</span><span class="tech-badge">Snowflake</span><span class="tech-badge">PostgreSQL</span><span class="tech-badge">AWS EC2</span><span class="tech-badge">Docker</span><span class="tech-badge">Entra ID</span></div>
-        </div>
-      </div>
-
-      <div class="exp-item">
-        <div class="exp-header">
-          <div><h3>Backend Engineer</h3><span class="company">Ayni Gold</span></div>
-          <span class="date">April – July</span>
-        </div>
-        <div class="exp-desc">
-          <ul>
-            <li>Engineered backend systems and APIs to support cryptocurrency and Web3 features.</li>
-            <li>Integrated blockchain functionality and managed secure transactions for the platform.</li>
-          </ul>
-          <div style="margin-top: 0.4rem;"><span class="tech-badge">Web3</span><span class="tech-badge">Crypto</span><span class="tech-badge">Blockchain</span><span class="tech-badge">Backend</span></div>
         </div>
       </div>
 
