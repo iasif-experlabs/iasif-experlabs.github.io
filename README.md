@@ -429,6 +429,7 @@
 
   <div class="profile-header">
     <div class="name-title">
+      <h1>Ibtisam Asif</h1>
       <div class="badge"><i class="fas fa-code" style="margin-right: 6px;"></i>Principal Full Stack Engineer · Engineering Lead</div>
       <div style="margin-top: 10px; font-size: 0.95rem; color: #1e3a5f; background: #f1f5f9; padding: 0.2rem 1rem; border-radius: 30px; display: inline-block;">
         <i class="fas fa-map-pin" style="margin-right: 6px; color: #2563eb;"></i> Lahore, Pakistan
